@@ -1,8 +1,8 @@
 t app appmode photo
 sleep 1
-t ia2 -ae still_exp 400 1 17
+t ia2 -ae still_exp 400 400 1
 sleep 1
 t app button shutter PR
-sleep 30
+sleep 1
 d:\autoexec.ash
 REBOOT yes
